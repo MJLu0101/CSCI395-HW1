@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-introduction page</title>
+</head>
+<style>
+    .nav{
+        background-color:#0d76b8;
+        height: 20px;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        border:black;
+        border-width: 10px;
+        border-style: double;
+
+    }
+    .nav a{
+        text-decoration: none; 
+        background-color: rgb(68, 78, 209);
+        color: whitesmoke;
+        border-radius: 50px;
+        padding: 5px;
+        
+    }
+
+    .flex-container{
+        display: flex;
+    }
+    .link a{
+        background-color: rgb(68, 78, 209);
+        font-size: 25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: whitesmoke;
+        text-decoration: none; 
+        margin: 40px;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .box1{
+        height: 280px;
+        width: 45%;
+        background-color: #24628c;
+        border-style: dotted;
+        border-width: thick;
+        border-color: #6C98C6;
+        margin: 0 ;
+        padding: 20px;
+       
+        
+    }
+    h1{
+        font-size: xxx-large;
+        margin-top: 20px;
+        text-align: center;
+        color: #644b9d;
+    }
+    body{
+        background-color:#6C98C6;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bottomlink{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        background-color: blue;
+        color: whitesmoke;
+        height: 150px; 
+        width: 100%;
+        text-align: center; 
+        padding: 20px; 
+        box-sizing: border-box;
+
+    }
+</style>
+<body>
+    <div class="nav">
+        <a href="http://127.0.0.1:5500/page1.html">Main Page</a>
+        <a href="http://127.0.0.1:5500/page2.html" style="position: relative;left:55%">Introduction</a>
+        <a href="http://127.0.0.1:5500/page3.html" style="position: relative;left:60%">Hobbies</a>
+    </div>
+
+    <h1>Hello, This is home page!</h1>
+
+    <div class="flex-container">
+        <div class="box1">
+            <p style="font-size: 25px;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;color: antiquewhite;">
+                Hi, I’m Lu Mingjun. I’d like to share about myself and my interests. 
+                Welcome to my homepage! You can explore my profile through the two options ->
+            </p>
+        </div>
+        <div class="link">
+            <a href="http://127.0.0.1:5500/page2.html">Self-Introduction</a>
+            <br>
+            <a href="http://127.0.0.1:5500/page3.html">My Hobbies</a>
+        </div>
+    </div>
+    <div class="bottomlink">
+
+    </div>
+
+
+</body>
+</html>
